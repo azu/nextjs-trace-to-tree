@@ -9,7 +9,7 @@ Next.js trace to tree CLI
 
 ```bash
 npm run build # next build
-npx nextjs-trace-to-tree ./next/trace
+npx nextjs-trace-to-tree ./.next/trace
 ```
 
 ## Contributing
