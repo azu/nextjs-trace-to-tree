@@ -1,6 +1,6 @@
 {
   "name": "nextjs-trace-to-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Next.js trace-to-tree CLI",
   "type": "module",
   "exports": "./trace-to-event-format.js",
