@@ -17,6 +17,7 @@ npx nextjs-trace-to-tree ./.next/trace # specify trace file path as 1st argument
 - https://github.com/vercel/next.js/blob/canary/scripts/trace-to-tree.mjs
 - [trace-to-treeでNext.jsの起動タイムをトレースする #パフォーマンス - Qiita](https://qiita.com/BRSF/items/bc13324404ecd7387ec8)
 - [Next.jsでtraceの解析結果を表示する](https://zenn.dev/s_takashi/scraps/d13e6300993233)
+- [Next.js製アプリケーションのコンパイルを約100倍高速化した話](https://zenn.dev/mkt/articles/543669021d9a1e)
 
 ## Contributing
 
