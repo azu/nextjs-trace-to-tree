@@ -2,6 +2,8 @@
 
 Next.js trace to tree CLI
 
+This tools is just a package version of [trace-to-tree.mjs](https://github.com/vercel/next.js/blob/canary/scripts/trace-to-tree.mjs) in Next.js repository.
+
 ## Usage
 
 1. Generate trace file via `next build` command
