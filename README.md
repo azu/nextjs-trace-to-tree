@@ -10,7 +10,7 @@ This tools is just a package version of [trace-to-tree.mjs](https://github.com/v
 2. Run `nextjs-trace-to-tree` command with trace file path
 
 ```bash
-npm run build # next build
+rm -rf .next && npm run build # next build
 npx nextjs-trace-to-tree ./.next/trace # specify trace file path as 1st argument
 ```
 
