@@ -14,6 +14,24 @@ npm run build # next build
 npx nextjs-trace-to-tree ./.next/trace # specify trace file path as 1st argument
 ```
 
+## Explanation
+
+```bash
+Explanation:
+module /Users/next-user/src/magic-ui/pages/index.js 24 s (total 33 s, self 163 ms) [read-resource 873 µs, next-babel-turbo-loader 135 ms]
+       ════════╤═══════════════════════════════════ ═╤═        ═╤═       ═╤════   ═══════════╤════════════════════════════════════════
+               └─ name of the processed module       │          │         │                  └─ timings of nested steps
+                                                     │          │         └─ building the module itself (including overlapping parallel actions)
+                                                     │          └─ total build time of this modules and all nested ones (including overlapping parallel actions)
+                                                     └─ how long until the module and all nested modules took compiling (wall time, without overlapping actions)
+
+module lodash (lodash/camelCase.js + 281) 295 ms (self 958 ms) [read-resource 936 ms]
+       ═╤════  ══════╤════════════   ═╤═
+        │            │                └─ number of modules that are merged into that line
+        │            └─ first module that is imported
+        └─ npm package name
+```
+
 ## Details
 
 - https://github.com/vercel/next.js/blob/canary/scripts/trace-to-tree.mjs
