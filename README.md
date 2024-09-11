@@ -23,3 +23,7 @@ npx nextjs-trace-to-tree ./next/trace
 ## License
 
 MIT
+
+MIT Vercel
+- 
+- https://github.com/vercel/next.js/blob/canary/scripts/trace-to-tree.mjs
