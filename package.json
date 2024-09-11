@@ -1,14 +1,13 @@
 {
   "name": "nextjs-trace-to-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js trace-to-tree CLI",
   "type": "module",
   "exports": "./trace-to-event-format.js",
   "bin": {
     "nextjs-trace-to-tree": "./trace-to-tree.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "azu",
   "license": "MIT",
